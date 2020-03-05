@@ -1,7 +1,7 @@
-___
+---
 title: "The Great Gatsby Bootcamp"
 date: "2020-03-05"
-___
+---
 
 I just wrote a new post!
 
