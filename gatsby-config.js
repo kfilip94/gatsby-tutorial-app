@@ -8,6 +8,10 @@
 const path = require('path')
 
 module.exports = {
+  siteMetadata: {
+    title: 'Gatbsy bootcamp',
+    author: 'Kamil Filip'
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-root-import',
