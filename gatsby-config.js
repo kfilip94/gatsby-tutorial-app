@@ -22,6 +22,13 @@ module.exports = {
         styles: path.join(__dirname, 'src/styles')
       }
     },
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    }
   ]
 }
